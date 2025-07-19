@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container-usuario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Montserrat", sans-serif;
+    background-color: #F0F4F3;
+}
+
+.cont1, .cont2{
+    border: 2px solid #ccc;
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.cont-form {
+    width: 50%;
+    overflow: hidden; /*Para que no se salga el contenido*/
+}
+
+.cont-form form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /*Vertical*/
+    transition: transform 0.5s ease-in-out;
+}
+
+.cont-form form h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.social-networks ion-icon {
+    border: 1px solid #ccc;
+    font-size: 18px;
+    border-radius: 6px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.social-networks ion-icon:hover {
+    background-color: #6ba598;
+}
+
+.cont-form span {
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.cont-input {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 0 15px;
+    background-color: #EEEEEE;
+}
+
+.cont-input input {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+}
+
+.recuperar-contra {
+    margin-top: 15px;
+}
+
+.recuperar-contra a, .no-cuenta a {
+    color:#40994e;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+.cont-form button,.button  {
+    width: 170px;
+    height: 45px;
+    background-color: #3AB397;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    color: white;
+}
+
+/*Animations*/
+
+.sign-up {
+    transform: translateX(-100%);
+}
+
+.cont2 .sign-in {
+    transform: translateX(100%);
+}
+
+.cont2 .sign-up {
+    transform: translateX(0);
+}
+
+.cont-welcome {
+    position: absolute;
+    background-color: #3ab397;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in-out,border-radius 0.5s ease-in-out;
+    overflow: hidden;
+    border-radius: 50% 0 0 50%;
+}
+
+.cont-welcome .welcome {
+    width: 80%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 0 50px;
+    color: white;
+    transition: transform 0.5s ease-in-out;
+}
+
+.welcome-sign-in {
+    transform: translateX(100%);
+}
+
+.cont-welcome h3{
+    font-size: 40px;
+}
+
+.cont-welcome p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.cont-welcome button {
+    border: 2px solid #ffffff;
+    background-color: transparent;
+}
+
+.cont2 .welcome-sign-in{
+    transform: translateX(0);
+}
+
+.cont2 .welcome-sign-up {
+    transform: translateX(-100%);
+}
+
+.cont2 .cont-welcome {
+    transform: translateX(0);
+    border-radius: 0 50% 50% 0;    
+    background-color: #3AA8AD;
+}   

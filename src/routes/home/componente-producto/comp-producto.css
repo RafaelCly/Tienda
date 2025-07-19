@@ -1,0 +1,30 @@
+.producto {
+    border-radius: 30px;
+    border: 1px solid #32315c;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 250px;
+    height: 230px;
+    background-color: #c4ede3;
+}
+
+.producto:hover {
+    box-shadow: 0 0 4px 4px rgba(30, 218, 124, 0.5);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+}
+
+.producto img {
+    height: 200px;
+    width: 100%;
+}
+
+.producto h1 {
+    font-size: 1.6rem;
+    color: #32315c;
+    text-align: center;
+    margin-top: -0.00001px;
+}

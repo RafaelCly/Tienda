@@ -1,0 +1,89 @@
+html,body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.head1 {
+  display: flex;
+  background-color: aquamarine;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  height: 4rem;
+}
+
+.nav1 {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  overflow: hidden;
+}
+
+.busqueda-header {
+  display: flex;
+  margin: 0;
+}
+
+.busqueda-header:hover {
+  box-shadow: 0 0 0 5px rgba(145, 145, 176, 0.144);
+  border-radius: 10px;
+}
+
+.lupa {
+  width: 2rem;
+  height: 2rem;
+  background-color: white;
+  border-radius: 10px 0 0 10px;
+}
+
+.lupa:hover {
+  cursor: pointer;
+}
+
+.busqueda {
+  border: none;
+  padding-right: 15rem;
+  border-radius: 0 10px 10px 0;
+  outline: none;
+}
+
+.button-header {
+  display: flex;
+  gap: 3rem;
+}
+
+.modulos{
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  margin-left: 32rem;
+}
+
+.btn1 {
+  background-color: transparent;
+  text-decoration: none;
+  color: darkblue;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1px;
+  font-size: 1.1rem;
+}
+
+.btn1:hover {
+  border-radius: 10px;  
+  cursor: pointer;
+  background-color: #80c6c6;
+}
+
+.btn1 img {
+  height: 2.1rem;
+}
+
+.logo img {
+  height: 7rem;
+}

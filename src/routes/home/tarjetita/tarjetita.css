@@ -1,0 +1,37 @@
+.tarjetita {
+  width: 220px; /* <-- Clave para que todas midan lo mismo */
+  height: auto;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto;
+  gap: 5px;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.tarjetita ion-icon {
+  font-size: 3rem;
+  grid-row: span 2;
+  background-color: rgb(64, 158, 127);
+  border-radius: 20%;
+  padding: 10px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.tarjetita:hover ion-icon {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+.tarjetita h1 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.tarjetita p {
+  margin: 0;
+  font-size: 1rem;
+  width: 110%;
+}

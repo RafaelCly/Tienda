@@ -1,0 +1,74 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 300px;
+  text-align: center;
+  position: relative;
+  animation: fadeIn 0.3s ease;
+}
+
+.modal-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.modal-precio {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.cantidad {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.cantidad button {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.cantidad input {
+  width: 40px;
+  text-align: center;
+}
+
+.btn-agregar {
+  background-color: #2ecc71;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-cerrar {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}

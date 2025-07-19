@@ -1,0 +1,27 @@
+.catalogo {
+    display: flex;
+}
+.catalogo-productos {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border: 1px solid #9c9c9c;
+    border-radius: 10px;
+    width: 80%;
+    height: 35rem;
+    margin-top: 3rem;
+    overflow-y: auto;
+}
+
+.catalog1 {
+    margin-top: 10px;
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.cat {
+    margin-bottom: 1rem;
+}

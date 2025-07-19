@@ -1,0 +1,65 @@
+.footer {
+    background-color: rgb(189, 189, 189);
+    text-align: center;
+    font-size: 14px;
+    color: #6c757d;
+    display: flex;
+    margin-top: 3rem;
+    align-items: center;
+    padding-top: 0;
+}
+
+.footer img {
+    width: 6rem;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.redes h1 {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 2px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    margin-left: 20rem;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.redes, .nosotros {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    color: #333;
+}
+
+.nosotros {
+    margin-top:1.6rem;
+    gap:3px;
+    margin-left: 10rem;
+}
+
+.footer a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #14ba38;
+}
+
+.face, .twit, .ig,.face a, .twit a, .ig a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #000000;
+}
+
+.face:hover, .twit:hover, .ig:hover, .face a:hover, .twit a:hover, .ig a:hover {
+    color: #14ba38;
+}
+
