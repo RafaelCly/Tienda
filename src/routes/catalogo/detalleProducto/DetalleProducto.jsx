@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./detalleProducto.css";
+import "./DetalleProducto.css";
 
 function DetalleProducto({ producto, onVolver }) {
   const [cantidad, setCantidad] = useState(1);
