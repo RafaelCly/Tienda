@@ -3,15 +3,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid #e0e0e0;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    height: 18.5rem;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    height: 19rem;
     width: 15rem;
-    padding: 0.5rem;
-    background-color: rgb(219, 228, 131);
+    padding: 0.75rem;
+    background-color: #fefee2;
     transition: transform 0.2s, box-shadow 0.2s;
 }
+
 
 .catalogo-producto:hover {
     transform: scale(1.02);
@@ -37,6 +38,21 @@
     color: #555;
 }
 
+.btn-agregar {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    font-size: 0.95rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-agregar:hover {
+    background-color: #388e3c;
+}
 .btn-agregar {
     background-color: #2e7d32;
     color: white;
