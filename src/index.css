@@ -5,6 +5,10 @@ html,body, #root {
   width: 100%;
 }
 
+body {
+  background-color: #f0efef;
+}
+
 
 .head1 {
   display: flex;

@@ -1,37 +1,48 @@
 .tarjetita {
-  width: 220px; /* <-- Clave para que todas midan lo mismo */
-  height: auto;
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-template-rows: auto auto;
-  gap: 5px;
+  width: 240px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  padding: 10px;
-  box-sizing: border-box;
+  gap: 10px;
+  background-color: #9cf193;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
+}
+
+.tarjetita:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 
 .tarjetita ion-icon {
   font-size: 3rem;
-  grid-row: span 2;
   background-color: rgb(64, 158, 127);
-  border-radius: 20%;
-  padding: 10px;
+  color: white;
+  padding: 12px;
+  border-radius: 50%;
   transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 .tarjetita:hover ion-icon {
   transform: scale(1.1);
-  filter: brightness(1.2);
+  filter: brightness(1.1);
 }
 
 .tarjetita h1 {
   margin: 0;
   font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
 }
 
 .tarjetita p {
   margin: 0;
-  font-size: 1rem;
-  width: 110%;
+  font-size: 0.95rem;
+  color: #555;
+  text-align: center;
 }
+

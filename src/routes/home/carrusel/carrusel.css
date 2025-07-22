@@ -8,6 +8,11 @@
   position: relative;
 }
 
+.carrusel {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+
 .slider {
   display: flex;
   width: 50%; /* 5 slides */
@@ -32,21 +37,23 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(71, 216, 170, 0.9);
-  color: white;
+  background: linear-gradient(135deg, #1abc9c, #16a085);
+  color: #fff;
   border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1rem;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
   opacity: 0;
-  transition: opacity 0.3s ease;
+  cursor: pointer;
 }
 
-/* Mostrar el botón al hacer hover en el slide */
 .slide:hover .ver-mas {
   opacity: 1;
+  transform: translate(-50%, -50%) scale(1.05);
 }
+
 
 .slide:hover img {
   filter: brightness(0.8);

@@ -10,6 +10,10 @@
     background-color: #c4ede3;
 }
 
+.producto {
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
 .producto:hover {
     box-shadow: 0 0 4px 4px rgba(30, 218, 124, 0.5);
     cursor: pointer;

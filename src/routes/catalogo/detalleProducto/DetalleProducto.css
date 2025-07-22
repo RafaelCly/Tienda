@@ -15,6 +15,13 @@
   border-radius: 10px;
 }
 
+.cantidad-control span {
+  font-size: 1.3rem;
+  font-weight: bold;
+  min-width: 2rem;
+  text-align: center;
+}
+
 .detalle-card {
   width: 20rem;
   border: 1px solid #ccc;
@@ -40,10 +47,25 @@
 }
 
 .cantidad-control button {
-  width: 2rem;
-  height: 2rem;
-  font-size: 1.2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #ffffff;
+  color: #4CAF50;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+  cursor: pointer;
 }
+
+.cantidad-control button:hover {
+  background-color: #d4f1dd;
+  transform: scale(1.1);
+}
+
+
 
 .btn-agregar {
     background-color: #4CAF50;
@@ -59,5 +81,10 @@
 
 .btn-agregar:hover {
     background-color: #388e3c;
+}
+
+.detalle-card:hover {
+  transform: scale(1.02);
+  transition: transform 0.2s ease;
 }
 
